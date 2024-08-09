@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>{% block title %}Survey{% endblock %}</title>
+</head>
+
+<body>
+    <header>
+        <h1>{% block header %}Survey{% endblock %}</h1>
+        <h2>{{survey.title}}</h2>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+
+</html>
